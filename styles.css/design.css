@@ -1,4 +1,159 @@
+/* work sans font from google foonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@800&family=Work+Sans:wght@800&display=swap');
+
 /* shared styles */
-nav{
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* shared styles */
+/* nav bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+
+}
+
+.img-logo {
+    display: flex;
+    margin-left: 200px;
+}
+
+
+.img-icon {
+    /* padding: 20px; */
+    width: 86.041px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+.primary {
+    align-items: center;
+}
+
+.design {
+    color: #FF42A5;
+
+}
+
+nav li {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 50px;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    color: #3C354F;
+    width: 262px;
+    height: 56px;
+    /* background: rgba(11, 2, 35, 0.10); */
+    padding: 40px 40px;
+
+}
+
+.btn-primary {
+    margin-right: 200px;
+    border: none;
+    color: #3C354F;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+/* banner section */
+.banner-title {
+    color: #0B0223;
+    /* text-align: center; */
+    margin-top: 200px;
+    font-size: 48px;
+    /* font-weight: 600; */
+    /* text-transform: uppercase; */
+}
+
+section ul li {
+    list-style: none;
+}
+
+.banner-section {
+    justify-content: space-between;
+    background-color: #f6edf3;
+    width: 1901px;
+    height: 700px;
+}
+.banner{
     display: flex;
 }
+.banner-img{
+    width: 1920px;
+height: 5927px;
+}
+.banner-goat {
+    /* text-align: center; */
+    font-size: 95px;
+    font-weight: 800;
+    line-height: normal;
+    
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner {
+    text-align: center;
+}
+.banner-description{
+    color: #534C64;
+}
+
+.btn-power {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    border-radius: 48px;
+    border: 0;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+
+}
+
+#btn-power-g {
+    border-radius: 48px;
+    background: #4EC5F7;
+   
+}
+
+    
