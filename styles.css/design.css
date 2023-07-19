@@ -33,7 +33,6 @@ nav {
 
 
 .img-icon {
-    /* padding: 20px; */
     width: 86.041px;
     height: 40px;
     margin-top: 50px;
@@ -72,7 +71,6 @@ nav li a {
     color: #3C354F;
     width: 262px;
     height: 56px;
-    /* background: rgba(11, 2, 35, 0.10); */
     padding: 40px 40px;
 
 }
@@ -91,11 +89,9 @@ nav li a {
 /* banner section */
 .banner-title {
     color: #0B0223;
-    /* text-align: center; */
     margin-top: 200px;
     font-size: 48px;
-    /* font-weight: 600; */
-    /* text-transform: uppercase; */
+
 }
 
 section ul li {
@@ -108,20 +104,21 @@ section ul li {
     width: 1901px;
     height: 700px;
 }
-.banner{
+
+.banner {
     display: flex;
 }
-.banner-img{
+
+.banner-img {
     width: 1920px;
-height: 5927px;
+    height: 800px;
 }
+
 .banner-goat {
     /* text-align: center; */
     font-size: 95px;
     font-weight: 800;
     line-height: normal;
-    
-    text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -131,7 +128,8 @@ height: 5927px;
 .banner {
     text-align: center;
 }
-.banner-description{
+
+.banner-description {
     color: #534C64;
 }
 
@@ -145,15 +143,105 @@ height: 5927px;
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
-    text-transform: uppercase;
-    
-
 }
 
 #btn-power-g {
     border-radius: 48px;
     background: #4EC5F7;
-   
+
 }
 
+/* funny section */
+.funny-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.funny-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    /* line-height: 30px;  */
+}
+
+.test {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.watch {
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+
+.pic-title {
+    color: #534C64;
+    margin-top: 20px;
+    font-size: 18px;
+
+    font-weight: 500;
+
+}
+
+/* live play instantly */
+.live-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    width: 1000px;
+}
+
+.live-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.instantly {
+    display: flex;
+    text-align: right;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.instantly-container {
+    text-align: right;
+}
+
+.play-instantly {
+    color: #F948B2;
+}
+
+.angel {
+    position: relative;
+    right: 700px;
+    bottom: 300px;
+    border-radius: 8px;
+    border: 1px solid #f9dcdc;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+
+}
+
+.hourse {
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
+    margin-right: 244px;
+
+}
+
+.angel-hourse {
+    text-align: right;
     
+}
