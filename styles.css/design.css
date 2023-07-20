@@ -214,6 +214,7 @@ section ul li {
     text-align: right;
     margin-top: 100px;
     justify-content: space-around;
+    height: 900px;
 }
 
 .instantly-container {
@@ -246,25 +247,32 @@ section ul li {
 
 }
 
-/* games chose bar */
+/* games chose item */
 .photo-bar {
-    /* display: flex; */
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px 200px;
-    /* grid-template-rows: repeat(2,1fr); */
-    /* border: #0B0223; */
+    grid-template-columns: repeat(5, 1fr);
+    height: 350px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    /* text-align: center; */
 }
 
 .photo-icon {
-    border-radius: 45px;
+   display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    width: 248px;
+    height: 80px;
     align-items: center;
-    justify-content: center;
-    /* border: black; */
-
+   margin: 50px;
+   cursor: pointer;
+   
 }
+
 
 .photo-icon-nice {
     align-items: center;
+    text-align: center;
+    margin-left: 10px;
 }
 
 
@@ -310,8 +318,8 @@ section ul li {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 50px;
-
 }
+
 
 .logo-icon {
     display: flex;
