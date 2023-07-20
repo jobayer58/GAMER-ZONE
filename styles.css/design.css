@@ -132,7 +132,7 @@ section ul li {
 .banner-description {
     color: #534C64;
     margin-left: 300px;
-    /* padding: 10px; */
+    
 }
 
 .btn-power {
@@ -145,14 +145,9 @@ section ul li {
     color: #FFF;
     font-size: 20px;
     margin-bottom: 50px;
-    /* margin-left: 300px; */
-    /* align-items: center; */
-    /* text-align: center; */
-
 }
 
 .btn-plm {
-    /* text-align: center; */
     margin-left: 300px;
 
 }
@@ -160,7 +155,6 @@ section ul li {
 #btn-power-g {
     border-radius: 48px;
     background: #4EC5F7;
-    /* margin-right: 10px; */
 
 }
 
@@ -179,7 +173,7 @@ section ul li {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 50px;
-    /* line-height: 30px;  */
+    
 }
 
 .test {
@@ -191,9 +185,7 @@ section ul li {
 
 .watch {
     display: flex;
-    /* align-items: center; */
     gap: 10px;
-    /* justify-content: space-around; */
     justify-content: center;
     cursor: pointer;
 
@@ -203,7 +195,6 @@ section ul li {
     color: #534C64;
     margin-top: 20px;
     font-size: 18px;
-
     font-weight: 500;
 
 }
@@ -219,18 +210,16 @@ section ul li {
 
 .live-description {
     color: #534C64;
-    /* text-align:right; */
     font-size: 18px;
     font-weight: 400;
-    /* align-items: center; */
 }
 
 .instantly {
     display: flex;
-    /* text-align: right; */
     margin-top: 100px;
     justify-content: space-around;
     height: 900px;
+    margin-right: 300px;
 }
 
 .instantly-container {
@@ -271,7 +260,7 @@ section ul li {
     grid-template-columns: repeat(5, 1fr);
     height: 350px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    /* text-align: center; */
+
 }
 
 
@@ -301,7 +290,6 @@ section ul li {
 /* footer section */
 .footer-black {
     background: #0B0223;
-    /* width: 920px; */
     height: 500px;
     flex-shrink: 0;
 }
@@ -372,11 +360,7 @@ section ul li {
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width:576px) {
-    /* header {
-        padding: 20px;
-    } */
-    /* nav style */
-
+    
     nav {
         flex-direction: column;
     }
@@ -386,7 +370,6 @@ section ul li {
         
     }
     .img-logo{
-        /* align-items: center; */
         text-align: center;
         margin-left: 100px;
     }
@@ -397,7 +380,6 @@ section ul li {
     /* banner style */
     .banner {
         width: 100%;
-        /* padding: 100px; */
         flex-direction: column;
         
     }
@@ -433,9 +415,7 @@ section ul li {
         flex-direction: column;
         grid-template-columns: repeat(3, 1fr);
         height: 700px;
-        /* align-items: center;
-        text-align: center; */
-        /* padding: 10px 900px 10px 20px; */
+        
         
       
     }
